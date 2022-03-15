@@ -8,6 +8,7 @@ call plug#begin()
 	Plug 'Shougo/ddc.vim'
 	Plug 'Shougo/ddc-matcher_head'
 	Plug 'Shougo/ddc-sorter_rank'
+	Plug 'itchyny/lightline.vim'
 call plug#end()
 
 runtime! basic/*.vim
