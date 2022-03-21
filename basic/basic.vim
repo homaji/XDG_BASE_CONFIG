@@ -17,3 +17,6 @@ set wildmenu
 
 """ 文字の設定
 set ambiwidth=double
+
+""" カレントディレクトリに移動する
+set autochdir
