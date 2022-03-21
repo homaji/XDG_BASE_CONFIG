@@ -1,4 +1,9 @@
+"Use Around source
+call ddc#custom#patch_global('sources', ['around'])
+"Use skkeleton source
 call ddc#custom#patch_global('sources', ['skkeleton'])
+
+
 call ddc#custom#patch_global('sourceOptions', {
 	\ '_': {
 	\	'matchers': ['matcher_head'],
