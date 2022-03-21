@@ -13,7 +13,8 @@ call ddc#custom#patch_global('sourceOptions', {
 	\	'mark': 'skkeleton',
 	\	'matchers': ['skkeleton'],
 	\	'sorters': [],
-	\	'converters':[],
-	\	'minAutoCompleteLength': 2
+	\	'minAutoCompleteLength': 2,
 	\ },
 	\ })
+
+call ddc#enable()
