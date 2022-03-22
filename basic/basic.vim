@@ -20,3 +20,7 @@ set ambiwidth=double
 
 """ カレントディレクトリに移動する
 set autochdir
+
+""" タブ関連の設定
+set tabstop=4
+set shiftwidth=4
