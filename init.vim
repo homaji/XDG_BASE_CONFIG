@@ -12,7 +12,6 @@ call plug#begin()
 	Plug 'itchyny/lightline.vim'
 call plug#end()
 
-runtime! basic/*.vim
-runtime! plugin/*.vim
+runtime! settings/*.vim
 
 
