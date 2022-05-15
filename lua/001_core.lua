@@ -3,4 +3,4 @@
 vim.opt.number = true
 
 -- クリップボード連携
-opt.clipboard:append({unnamedeplus = true})
+vim.opt.clipboard:append({unnamedeplus = true})
