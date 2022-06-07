@@ -15,6 +15,3 @@ New-Item $env:XDG_DATA_HOME -ItemType Directory
 [Environment]::SetEnvironmentVariable('XDG_CACHE_HOME',$Env:XDG_CACHE_HOME,'User')
 [Environment]::SetEnvironmentVariable('XDG_DATA_HOME',$Env:XDG_DATA_HOME,'User')
 
-iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`
-    ni "$(@($env:XDG_DATA_HOME, $env:LOCALAPPDATA)[$null -eq $env:XDG_DATA_HOME])/nvim-data/site/autoload/plug.vim" -Force
-
