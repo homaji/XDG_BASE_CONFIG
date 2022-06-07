@@ -16,7 +16,7 @@ vim.keymap.set('n', 'sp', 'gT')
 vim.keymap.set('n', 'st', ':<C-u>tabnew<CR>')
 -- set s+qQ kill buffer or close window
 vim.keymap.set('n', 'sq', ':<C-u>q<CR>')
-vim.keymap.set('n', 'sb', ':<C-u>bd<CR>')
+vim.keymap.set('n', 'sb', ':<C-u>bd!<CR>')
 
 -- set ESC+ESC Clear Search hilight
 vim.keymap.set('n', '<ESC><ESC>', ':<C-u>set nohlsearch!<CR>')
