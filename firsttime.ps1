@@ -7,7 +7,7 @@ cmd /c mklink /j  "$env:XDG_CONFIG_HOME\nvim" $PSSCriptRoot
 $env:XDG_CACHE_HOME="$env:TEMP\neovim\"
 New-Item $env:XDG_CACHE_HOME -ItemType Directory
 
-$env:XDG_DATA_HOME="$env:HOME\.local\"
+$env:XDG_DATA_HOME="$env:\LOCALAPPDATA"
 New-Item $env:XDG_DATA_HOME -ItemType Directory 
 
 #Set permanent env
