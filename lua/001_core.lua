@@ -12,8 +12,12 @@ vim.opt.showmatch = true
 vim.opt.matchtime = 1
 -- -ヘルプファイル
 vim.opt.helplang = 'ja', 'en'
+-- -ステータスバーを常時1か所だけ
+vim.opt.laststatus = 3
 -- -tabバーの表示
 vim.opt.showtabline = 2
+-- ColorScheme
+vim.cmd('colorscheme kanagawa')
 
 
 -- 入力時
@@ -47,3 +51,4 @@ vim.opt.clipboard:append({unnamedeplus = true})
 
 -- マウス有効
 vim.opt.mouse = 'a'
+
