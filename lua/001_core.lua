@@ -45,6 +45,8 @@ vim.opt.backspace = 'start', 'eol', 'indent'
 -- ファイル環境
 -- -フォーマット
 vim.opt.fileformats = 'dos', 'unix', 'mac'
+-- File type検出
+vim.g.do_filetype_lua = 1
 
 -- クリップボード連携
 vim.opt.clipboard:append({unnamedeplus = true})
