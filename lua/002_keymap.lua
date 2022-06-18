@@ -1,4 +1,6 @@
 -- vim.keymap.set(mode, lhs, rhs, options,{noremap = true})
+-- leader
+vim.g.mapleader = ' '
 
 -- set s key to Window moving.
 vim.keymap.set('n', 's', '<NOP>',{noremap = true})
