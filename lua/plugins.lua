@@ -13,5 +13,7 @@ return require('packer').startup(function()
     }
     use{'tkmpypy/chowcho.nvim'}
     use{'rebelot/kanagawa.nvim'}
+    use{'nathom/filetype.nvim'}
+    use{'obaland/vfiler.vim'}
 end)
 

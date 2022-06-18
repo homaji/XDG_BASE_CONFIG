@@ -1,3 +1,9 @@
+local status_ok, lualaine = pcall(require, "lualine")
+if not status_ok then
+    return
+end
+
+
 require('lualine').setup {
     options = {
         icons_enabled = true,
@@ -26,4 +32,5 @@ require('lualine').setup {
 --    },
     tabline = {},
     extensions = {}
+
 }
