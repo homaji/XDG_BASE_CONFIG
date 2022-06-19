@@ -49,7 +49,8 @@ vim.opt.fileformats = 'dos', 'unix', 'mac'
 vim.g.do_filetype_lua = 1
 
 -- クリップボード連携
-vim.opt.clipboard:append({unnamedeplus = true})
+--vim.opt.clipboard:append{"unnamedeplus"}
+vim.opt.clipboard = 'unnamedplus'
 
 -- マウス有効
 vim.opt.mouse = 'a'
