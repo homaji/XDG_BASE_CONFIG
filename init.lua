@@ -8,3 +8,4 @@ require('102-chowcho')
 require('103-changelog')
 require('104-alpha')
 
+vim.cmd('cd ~')
