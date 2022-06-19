@@ -23,3 +23,7 @@ vim.keymap.set('n', 'sb', ':<C-u>bd!<CR>',{noremap = true})
 -- set ESC+ESC Clear Search hilight
 vim.keymap.set('n', '<ESC><ESC>', ':<C-u>set nohlsearch!<CR>',{noremap = true})
 
+-- set keymap for Telescope
+vim.keymap.set('n', 'sf', '<cmd>lua require("telescope.builtin").find_files()<cr>',{noremap = true})
+vim.keymap.set('n', 'sb', '<cmd>lua require("telescope.builtin").buffers()<cr>',{noremap = true})
+vim.keymap.set('n', 'sh', '<cmd>lua require("telescope.builtin").help_tags()<cr>',{noremap = true})
