@@ -12,6 +12,6 @@ return require('packer').startup(function()
    use{ 'nathom/filetype.nvim' }
    use{ 'obaland/vfiler.vim' }
    use{ 'goolord/alpha-nvim' }
-   use{ 'TimUntersberger/neogit' }
+   use{ 'TimUntersberger/neogit' } -- git用
 end)
 
