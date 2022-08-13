@@ -13,5 +13,6 @@ return require('packer').startup(function()
    use{ 'obaland/vfiler.vim' }
    use{ 'goolord/alpha-nvim' }
    use{ 'TimUntersberger/neogit' } -- git用
+   use{ 'renerocksai/telekasten.nvim' } -- zettelkasten type memo
 end)
 
