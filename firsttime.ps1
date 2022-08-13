@@ -1,10 +1,10 @@
 $env:HOME=$env:HOMEDRIVE + $env:HOMEPATH
-$env:XDG_CONFIG_HOME="$env:HOME\.config"
+$env:XDG_CONFIG_HOME=$env:HOME
 New-Item $env:XDG_CONFIG_HOME -ItemType Directory
 
 cmd /c mklink /j  "$env:XDG_CONFIG_HOME\nvim" $PSSCriptRoot
 
-$env:XDG_CACHE_HOME="$env:TEMP\neovim\"
+$env:XDG_CACHE_HOME=$env:TEMP
 New-Item $env:XDG_CACHE_HOME -ItemType Directory
 
 $env:XDG_DATA_HOME="$env:\LOCALAPPDATA"
