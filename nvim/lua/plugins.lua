@@ -14,5 +14,6 @@ return require('packer').startup(function()
    use{ 'goolord/alpha-nvim' }
    use{ 'TimUntersberger/neogit' } -- git用
    use{ 'renerocksai/telekasten.nvim' } -- zettelkasten type memo
+   use{ 'akinsho/toggleterm.nvim', tag = 'v2.*', config = function() require("toggleterm").setup() end } -- terminal呼び出し
 end)
 
