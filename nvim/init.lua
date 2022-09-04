@@ -8,5 +8,7 @@ require('102-chowcho')
 require('103-changelog')
 require('104-alpha')
 require('105-toggleterm')
+require('106-orgmode')
+require('107-treesitter')
 
 vim.cmd('cd ~')
