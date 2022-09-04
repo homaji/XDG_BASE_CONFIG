@@ -17,7 +17,7 @@ vim.opt.laststatus = 3
 -- -tabバーの表示
 vim.opt.showtabline = 2
 -- ColorScheme
--- vim.cmd('colorscheme kanagawa')
+vim.cmd('colorscheme kanagawa')
 
 
 -- 入力時
@@ -44,7 +44,7 @@ vim.opt.backspace = 'start', 'eol', 'indent'
 
 -- ファイル環境
 -- -フォーマット
-vim.opt.fileformats = 'dos', 'unix', 'mac'
+vim.opt.fileformats = 'unix', 'dos', 'mac'
 -- File type検出
 vim.g.do_filetype_lua = 1
 
