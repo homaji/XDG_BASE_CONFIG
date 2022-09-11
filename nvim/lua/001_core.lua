@@ -44,8 +44,7 @@ vim.opt.backspace = 'start', 'eol', 'indent'
 
 -- ファイル環境
 -- 言語
-vim.api.nevim.exec('language en_US', true)
--- -フォーマット
+vim.api.nvim_exec('language en_US', true) -- -フォーマット
 vim.opt.fileformats = 'dos', 'unix', 'mac'
 -- File type検出
 vim.g.do_filetype_lua = 1
