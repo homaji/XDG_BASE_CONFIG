@@ -16,8 +16,6 @@ vim.opt.helplang = 'ja', 'en'
 vim.opt.laststatus = 3
 -- -tabバーの表示
 vim.opt.showtabline = 2
--- ColorScheme
-vim.cmd('colorscheme kanagawa')
 
 
 -- 入力時
