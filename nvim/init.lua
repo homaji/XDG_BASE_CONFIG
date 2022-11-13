@@ -10,5 +10,6 @@ require('104-alpha')
 require('105-toggleterm')
 require('106-orgmode')
 require('107-treesitter')
+require('108-kanagawa')
 
 vim.cmd('cd ~')

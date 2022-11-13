@@ -27,3 +27,6 @@ vim.keymap.set('n', '<ESC><ESC>', ':<C-u>set nohlsearch!<CR>',{noremap = true})
 vim.keymap.set('n', 'sf', '<cmd>lua require("telescope.builtin").find_files()<cr>',{noremap = true})
 vim.keymap.set('n', 'sb', '<cmd>lua require("telescope.builtin").buffers()<cr>',{noremap = true})
 vim.keymap.set('n', 'sh', '<cmd>lua require("telescope.builtin").help_tags()<cr>',{noremap = true})
+
+-- set keymap for TerminalMode
+vim.keymap.set('t', '<ESC>', '<C-\\><C-n>', {noremap = true})
