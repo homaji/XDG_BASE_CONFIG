@@ -12,4 +12,6 @@ require('106-orgmode')
 require('107-treesitter')
 require('108-kanagawa')
 
+require('201-mason')
+
 vim.cmd('cd ~')

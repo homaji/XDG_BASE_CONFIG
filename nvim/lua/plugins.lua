@@ -17,5 +17,13 @@ return require('packer').startup(function()
    use{ 'akinsho/toggleterm.nvim', tag = 'v2.*', config = function() require("toggleterm").setup() end } -- terminal呼び出し
    use{ 'nvim-treesitter/nvim-treesitter'}
    use{ 'nvim-orgmode/orgmode'}
+   use{ 'neovim/nvim-lspconfig'}  -- For LSP
+   use{ 'williamboman/mason.nvim'} -- For LSP Server Install
+   use{ 'williamboman/mason-lspconfig.nvim'} -- For LSP Server Config
+
+   use{ 'hrsh7th/nvim-cmp'}
+   use{ 'hrsh7th/cmp-nvim-lsp'}
+   use{ 'hrsh7th/cmp-vsnip'}
+   use{ 'hrsh7th/cmp-buffer'}
 end)
 
