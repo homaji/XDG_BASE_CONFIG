@@ -3,9 +3,11 @@ vim.cmd [[packadd packer.nvim]]
 return require('packer').startup(function()
     
    use{ 'nvim-lua/plenary.nvim' }
+   use{ 'nvim-lua/popup.nvim'}
    use{ 'kyazdani42/nvim-web-devicons', opt = true}
    use{ 'wbthomason/packer.nvim', opt = true}
    use{ 'nvim-telescope/telescope.nvim' }
+   use{ 'nvim-telescope/telescope-media-files.nvim'}
    use{ 'nvim-lualine/lualine.nvim' }
    use{ 'tkmpypy/chowcho.nvim' }
    use{ 'rebelot/kanagawa.nvim' }
@@ -25,5 +27,9 @@ return require('packer').startup(function()
    use{ 'hrsh7th/cmp-nvim-lsp'}
    use{ 'hrsh7th/cmp-vsnip'}
    use{ 'hrsh7th/cmp-buffer'}
+
+   use{ 'adelarsq/image_preview.nvim' }
+   use{ 'rbtnn/vim-ambiwidth' }
+   
 end)
 

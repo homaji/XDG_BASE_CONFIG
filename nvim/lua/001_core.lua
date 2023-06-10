@@ -16,6 +16,10 @@ vim.opt.helplang = 'ja', 'en'
 vim.opt.laststatus = 3
 -- -tabバーの表示
 vim.opt.showtabline = 2
+-- -GUIフォントの指定
+vim.opt.guifont='Cica:h14'
+--vim.opt.guifont={ 'HackGen35 Console NF', 'h14'}
+
 
 
 -- 入力時
