@@ -15,10 +15,8 @@ return require('packer').startup(function()
    use{ 'obaland/vfiler.vim' }
    use{ 'goolord/alpha-nvim' }
    use{ 'TimUntersberger/neogit' } -- git用
-   use{ 'renerocksai/telekasten.nvim' } -- zettelkasten type memo
    use{ 'akinsho/toggleterm.nvim', tag = 'v2.*', config = function() require("toggleterm").setup() end } -- terminal呼び出し
    use{ 'nvim-treesitter/nvim-treesitter'}
-   use{ 'nvim-orgmode/orgmode'}
    use{ 'neovim/nvim-lspconfig'}  -- For LSP
    use{ 'williamboman/mason.nvim'} -- For LSP Server Install
    use{ 'williamboman/mason-lspconfig.nvim'} -- For LSP Server Config
@@ -28,8 +26,9 @@ return require('packer').startup(function()
    use{ 'hrsh7th/cmp-vsnip'}
    use{ 'hrsh7th/cmp-buffer'}
 
-   use{ 'adelarsq/image_preview.nvim' }
-   use{ 'rbtnn/vim-ambiwidth' }
+   use{ 'rbtnn/vim-ambiwidth' } -- For Cica fonts.
+   use {'stevearc/gkeep.nvim', run = ':UpdateRemotePlugins'}
+
    
 end)
 
