@@ -1,4 +1,4 @@
-local status_ok, treesitter = pcall(require, "kanagawa")
+local status_ok, kanagawa = pcall(require, "kanagawa")
 if not status_ok then
     return
 end
