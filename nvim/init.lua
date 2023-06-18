@@ -12,8 +12,8 @@ require('105-toggleterm')
 require('106-orgmode')
 require('107-treesitter')
 require('108-kanagawa')
-require('109-image_preview')
 require('110-telescope')
+require('111_gkeep')
 
 require('201-mason')
 

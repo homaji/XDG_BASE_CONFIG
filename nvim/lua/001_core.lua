@@ -18,7 +18,7 @@ vim.opt.laststatus = 3
 vim.opt.showtabline = 2
 -- -GUIフォントの指定
 vim.opt.guifont='Cica:h14'
---vim.opt.guifont={ 'HackGen35 Console NF', 'h14'}
+--vim.opt.guifont='HackGen35 Console NF:h14'
 
 
 
