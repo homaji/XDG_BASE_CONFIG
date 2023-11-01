@@ -17,8 +17,8 @@ vim.opt.laststatus = 3
 -- -tabバーの表示
 vim.opt.showtabline = 2
 -- -GUIフォントの指定
-vim.opt.guifont='Cica:h14'
---vim.opt.guifont='HackGen35 Console NF:h14'
+--vim.opt.guifont='Cica:h14'
+vim.opt.guifont='HackGen Console NF:h14:Bold'
 
 
 
@@ -41,8 +41,8 @@ vim.opt.wrapscan = true
 -- カーソル移動
 -- - 行を跨いでの移動
 vim.opt.whichwrap = 'b', 's', 'h', 'l', '<', '>', '[', ']'
--- - 削除時の対象
-vim.opt.backspace = 'start', 'eol', 'indent'
+-- - 削除時の対象 デフォルトで有効になっているので逆に設定しない方がいい
+-- --vim.opt.backspace = 'start', 'eol', 'indent'
 
 -- ファイル環境
 -- 言語
@@ -58,3 +58,12 @@ vim.opt.clipboard = 'unnamedplus'
 -- マウス有効
 vim.opt.mouse = 'a'
 
+
+-- IME制御
+-- zenhan.exeを使ってノーマルモードになったときに半角にする。
+vim.cmd [[
+    if executable('zenhan')
+        autocmd InsertLeave * :call system('zenhan 0')
+        autocmd CmdlineLeave * :call system('zenhan 0')
+    endif
+]]

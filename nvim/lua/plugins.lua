@@ -37,6 +37,8 @@ return require('packer').startup(function()
             })
         end,
     }
+
+    use{'keaising/im-select.nvim'} -- For Controll ime status.
    
 end)
 
