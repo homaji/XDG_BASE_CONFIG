@@ -50,6 +50,9 @@ vim.opt.fileformats = 'dos', 'unix', 'mac'
 -- File type検出
 vim.g.do_filetype_lua = 1
 
+-- PYthon 設定
+vim.g.python3_host_prog = "C:\\Users\\homaj\\AppData\\Local\\Programs\\Python\\python312\\python.exe"
+
 -- クリップボード連携
 --vim.opt.clipboard:append{"unnamedeplus"}
 vim.opt.clipboard = 'unnamedplus'
