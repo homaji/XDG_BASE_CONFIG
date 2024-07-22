@@ -60,7 +60,6 @@ vim.opt.clipboard = 'unnamedplus'
 -- マウス有効
 vim.opt.mouse = 'a'
 
-
 -- IME制御
 -- zenhan.exeを使ってノーマルモードになったときに半角にする。
 vim.cmd [[
